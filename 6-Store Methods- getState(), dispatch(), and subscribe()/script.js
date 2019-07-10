@@ -10,6 +10,9 @@ const counter = (state = 0, action) => {
 };
 
 const { createStore } = Redux;
+//or var createStore = Redux.createStore;
+//or import { createStore } from 'redux';
+
 const store = createStore(counter);
 
 const render = () => {
