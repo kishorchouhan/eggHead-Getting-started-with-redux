@@ -91,7 +91,7 @@ testAddTodo();
 testToggleTodo();
 console.log("All tests passed.") || displayInPreview("All tests passed.");
 
-// display in plunker preview
+// display in preview
 function displayInPreview(string) {
   var newDiv = document.createElement("div");
   var newContent = document.createTextNode(string);
